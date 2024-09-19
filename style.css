@@ -1,0 +1,126 @@
+/*reset*/
+*{
+	margin: 0px;
+	padding:0px ;
+	box-sizing: border-box;
+}
+
+/*body*/
+body{
+	background-image: url('img/back-cover.jpg');
+	background-size: 100%;
+	font-family: Trebuchet MS;
+
+}
+ul li{
+	list-style: none;
+}
+h2,h3{
+	margin: 25px 0px 25px;
+
+ }
+ h3{
+ 	font-size: 28px;
+ 	
+
+ }
+
+/*wrapper*/
+#wrapper{
+	margin:0 auto;
+	width: 990px;
+	background: hsla(358,28%, 95%, 0.85);
+}
+/*pour tous les éléments flottants*/
+.clear{
+	clear: both;
+}
+.float-right{
+	float: right;
+	padding: 10px;
+}
+/*Menu de navigation*/
+nav {
+	border-bottom: solid 1px #000;
+	border-top: solid 1px #000;
+	padding: 8px;
+}
+nav ul li a {border-right:1px solid #000;
+
+}
+li a:hover{
+	color: #d86c0c; /*rol-over pour les éléments du menu de navigation*/
+}
+
+/*figure*/
+figure a:hover{
+	color: rgb(128, 128, 128); /*rol-over pour les légendes qui accompagnent les img*/
+	
+}
+figcaption{
+ 	color: #b32;
+ }
+
+/* a Designe tous les éléments a y compris ceux qui ne sont dans le menu de navigation*/
+a{
+	display: block;
+	text-decoration: none;
+	padding:5px;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* on cible les tous éléments qui ont une classe flex-container*/
+.flex-container{
+	display: flex;
+}
+.space-bet{
+	justify-content: space-between;
+}
+.text-center{
+	text-align: center;
+	margin: 20px;
+}
+/*colonne de gauche et tous les éléments ayant une classe col-left*/ 
+.col-left{
+	width: 280px;
+	font-size: 14px;
+	
+}
+.col-left h2{
+	font-size: 16px;
+
+}
+/*colonne de droite*/
+.col-right{
+	width: 640px;
+
+}
+
+.col-right h2{
+	font-size: 20px;
+}
+/*Tous les éléments qui on une classe lrp15(left-right-padding) auront un padding de 15px et un margin de 5px*/
+.lrp15{
+	padding: 15px;
+	margin: 5px;
+}
+
+.col-left h2{
+	font-size: 16px;
+
+}
+/*tous les éléments qui est une classe border-top*/
+
+ .border-top{
+
+ 	border-top: solid 1px #000;
+
+ }
+ 
+ aside {
+ margin-top: 20px;
+ }
+ 
+
